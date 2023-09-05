@@ -1,14 +1,23 @@
 public class Kert {
+    Maci maci;
+    Macska mici;
     public void inditElet() {
-        Maci maci = new Maci();
-        Macska mici = new Macska();
+        initObject();
+        startMaci();
+        startMici();
+    }
+    public void initObject() {
+        this.maci = new Maci();
+        this.mici = new Macska();
+    }
+    public void startMaci() {
         maci.hangotad("Brumm...");
         maci.mezgyujtes();
-        //maci.nev = "Brumi";
-
+    }
+    public void startMici() {
         mici.hangotad("miauuu...");
         mici.dorombol();
-        //mici.nev = "";
+        
         mici.beallitNev("aaa");
         System.out.println(mici.lekerNev());
     }
