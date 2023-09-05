@@ -9,7 +9,7 @@ public class Kert {
         mici.hangotad("miauuu...");
         mici.dorombol();
         //mici.nev = "";
-        mici.beallitNev("");
-        //System.out.println(mici.nev);
+        mici.beallitNev("aaa");
+        System.out.println(mici.lekerNev());
     }
 }

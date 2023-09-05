@@ -10,17 +10,9 @@ public class Allat {
     }
     public String lekerNev() {
         return this.nev;
-    }
-
-        
+    }        
 
     public void hangotad(String hang) {
         System.out.println(hang);
-    }
-    public String getNev() {
-        return nev;
-    }
-    public void setNev(String nev) {
-        this.nev = nev;
     }
 }
